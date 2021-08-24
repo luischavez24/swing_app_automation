@@ -39,14 +39,6 @@
       <version>6.11.0</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.assertj/assertj-swing-junit -->
-    <dependency>
-      <groupId>org.assertj</groupId>
-      <artifactId>assertj-swing-junit</artifactId>
-      <version>3.17.1</version>
-      <scope>test</scope>
-    </dependency>
-
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
@@ -65,14 +57,6 @@
       <groupId>com.jaliansystems</groupId>
       <artifactId>marathon-java-agent</artifactId>
       <version>5.4.0.0</version>
-    </dependency>
-
-
-    <dependency>
-      <groupId>pe.ey.qa.samples</groupId>
-      <artifactId>shop-sample</artifactId>
-      <scope>system</scope>
-      <systemPath>${basedir}/lib/shop-sample.jar</systemPath>
     </dependency>
   </dependencies>
 
